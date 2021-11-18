@@ -27,11 +27,6 @@ export class URLController {
             res.redirect(url.originURL)
             return
         }
-        /*const url = {
-            originURL: 'https://cloud.mongodb.com/v2/61956cd0c076302576ea3ef8#clusters',
-            hash: 'SXtrFLvX7',
-            shortURL: 'http://localhost:5000/SXtrFLvX7',
-        }*/
-        res.status(400).json({ error: 'URL not found'})
+       res.status(400).json({ error: 'URL not found'})
     }
 }
