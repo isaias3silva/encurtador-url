@@ -1,5 +1,5 @@
 export const config = {
     API_URL: "http://localhost:5000",
     MONGO_CONNECTION: 
-    'mongodb+srv://<user>:<password>@<database>.uqdwa.mongodb.net/MyFirstdatabase?retryWrites=true&w=majority',
+    'mongodb+srv://<user>:<password>@<database>.uqdwa.mongodb.net/MyFirstdatabase?',
 }
